@@ -1,0 +1,23 @@
+<style type="text/css">
+	body {
+		background-color: #fcfcfc;
+	}
+
+	.ui.icon.menu a.item:hover,  .ui.icon.menu a.item.selected {
+		background: #fcfcfc ;
+		color: #A5673F;
+	}
+
+	.ui.content {
+		margin-left: 200px;
+		width: 70%;
+		margin-top: 30px;
+	}
+
+	.ui.feed .event {
+		position: relative;
+		padding-bottom: 50px;
+	}
+</style>
+
+/*https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_architect&stacked=h*/
