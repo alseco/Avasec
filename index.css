@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	font-family: 'Open sans', 'sans-serif';
+}
+
+#avasec-logo {
+	margin-top: 10px;
+	margin-left: 50px;
+	float: left;
+	height: 45px;
+	cursor: pointer;
+}
+
+a {
+	margin-right: 30px;
+	text-align: center;
+	color: #7d7d7d !important;
+}
+
+nav ul li a:hover {
+   background-color: white;
+   color: black !important;
+}
+
+nav {
+	border-bottom: 0px;
+}
+
+.active {
+	color: black !important;
+}
+
+.buttons-wrapper {
+  position: absolute;
+  height: calc(150vh);
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+}
+
+.buttons-wrapper a {
+  pointer-events: auto;
+  color: black !important;
+}
+
+.mg-rg {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background-color: transparent !important;
+  border: 2.5px solid black;
+}
+
+.mg-rg:hover{
+	background-color: transparent !important;
+}
+
+#slider-image {
+	opacity: 0.6;
+}
+
+footer {
+	background-color: #fe0002 !important;
+}
+
+#about-company, #about-founder {
+    margin: 30px auto 30px auto;
+}
+
+#about-picture, #about-founder-picture {
+    margin: 30px auto 30px auto;
+}
+
+#about-text, #about-founder-text {
+    margin: 30px auto 30px auto;
+    font-size: 18px;
+}
+
+#mission-and-vision {
+    font-size: 18px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: #003032;
+    color: white;
+}
+
+#mission {
+    padding: 30px auto 30px auto;
+}
+
+#vision {
+    padding-top: 30px auto 30px auto;
+}
