@@ -90,10 +90,18 @@ footer {
     color: white;
 }
 
+#services-provided {
+    font-size: 35px;
+    color: black;
+}
+
 #mission {
     padding: 30px auto 30px auto;
 }
-
+#services {
+	 padding-top: 30px;
+    padding-bottom: 60px;
+}
 #vision {
     padding-top: 30px auto 30px auto;
 }
