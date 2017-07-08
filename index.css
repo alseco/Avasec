@@ -11,10 +11,24 @@
 	cursor: pointer;
 }
 
+#logo-image {
+	height: 400px;
+}
+
+#home-image {
+	height: 800px;
+	width: 100%;
+	opacity: 0.6;
+}
+
 a {
 	margin-right: 30px;
 	text-align: center;
 	color: #7d7d7d !important;
+}
+
+nav ul li {
+    display: inline;
 }
 
 nav ul li a:hover {
@@ -30,9 +44,22 @@ nav {
 	color: black !important;
 }
 
+.logo-wrapper {
+  position: absolute;
+  height: calc(100vh);
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+
 .buttons-wrapper {
   position: absolute;
-  height: calc(150vh);
+  height: calc(210vh);
   margin-top: 64px;
   display: flex;
   flex-direction: column;
@@ -66,11 +93,11 @@ nav {
 }
 
 footer {
-	background-color: #fe0002 !important;
+	background-color: #ca2121 !important;
 }
 
 #about-company, #about-founder {
-    margin: 30px auto 30px auto;
+    margin: 80px auto 80px auto;
 }
 
 #about-picture, #about-founder-picture {
@@ -82,25 +109,21 @@ footer {
     font-size: 18px;
 }
 
-#mission-and-vision {
+#services-head {
     font-size: 18px;
-    padding-top: 70px;
-    padding-bottom: 100px;
-    background-color: #003032;
+    padding-top: 20px auto;
+    padding-bottom: 20px auto;
+    background-color: #003333;
     color: white;
 }
 
 #services-provided {
-    font-size: 35px;
+    font-size: 35px auto;
     color: black;
 }
 
 #mission {
     padding: 30px auto 30px auto;
-}
-#services {
-	 padding-top: 30px;
-    padding-bottom: 60px;
 }
 #vision {
     padding-top: 30px auto 30px auto;
