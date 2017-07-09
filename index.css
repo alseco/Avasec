@@ -46,8 +46,8 @@ nav {
 
 .logo-wrapper {
   position: absolute;
-  height: calc(120vh);
-  margin-top: 64px;
+  height: calc(110vh);
+  margin-top: 64px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,10 +70,6 @@ nav {
   top: 0;
   pointer-events: none;
   width: 100%;
-}
-
-.logo-wrapper span {
-  pointer-events: auto;
 }
 
 .logo-wrapper a {
