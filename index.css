@@ -46,7 +46,7 @@ nav {
 
 .logo-wrapper {
   position: absolute;
-  height: calc(100vh);
+  height: calc(120vh);
   margin-top: 64px;
   display: flex;
   flex-direction: column;
@@ -112,6 +112,10 @@ footer {
 #about-text, #about-founder-text {
     margin: 30px auto 30px auto;
     font-size: 18px;
+}
+
+#details{
+    margin: 30px auto 30px auto;
 }
 
 #services-head {
