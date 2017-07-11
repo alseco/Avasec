@@ -5,11 +5,11 @@
       <!--Import materialize.css-->
         <!-- <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection"/> -->
 		
-		 <!-- Compiled and minified CSS -->
+		<!-- Compiled and minified CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-	   <link type="text/css" rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<link type="text/css" rel="stylesheet" href="index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" type="image/gif/png" href="images/logo.png">
         <title>Avasec</title>
@@ -28,7 +28,7 @@
                         <li><a href="#projects">Projects</a></li>
 						<li><a href="#careers">Careers</a></li>
 						<!-- <li><a class="red-text text-lighten-1 in-line" href="#footer"><i class="tiny material-icons">phone</i> (632)9020900</a></li> -->
-						<li><a href="#footer">Contact Us</a></li>
+						<li><a href="#conact">Contact Us</a></li>
                     </ul>
                 </div>
                 
@@ -40,8 +40,6 @@
         </div>
 		<div class="col s12 center logo-wrapper">
 			<img  class="responsive-img" id="logo-image" src="images/logo-g1.gif">
-			
-			<!-- <div class="caption center-align black-text" id="details"><span class="black-text text-darken-2 flow-text"><h3>"We offer quality Design and Construction Services"</h3></span></div> -->
 			<!--<div class="row center">
                 <a class="waves-effect waves-light btn hoverable mg-rg" href="#about-company">Explore</a>
             </div> -->
@@ -72,28 +70,77 @@
 				</div>
 			</div>
         </div>
-		
-		<div id="projects">
-			huhu
+		<div class="row col s12 center" id="projects">
+			<div class="center-align"><h4>PROJECTS</h4></div>
 		</div>
-		<div id="careers">
-			careers
+		<div class="row col s12 center" id="careers">
+			<div id="career-details">
+				<div class="center-align"><h4>CAREERS</h4></div>
+				<div class="center-align"><h5>This section is under construction</h5></div>
+				<center><i class="large material-icons">local_shipping</i></center>
+			</div>
 		</div>
-		
+		<div class="row col s12 center" id="contact">
+			<div id="contact-details">
+				<div class="center-align"><h4>CONTACT US</h4></div><br>
+				 <div class="container">
+					<div class="row">
+						<div class="col l6 m12 s12 ">
+						   <i class="medium material-icons">quick_contacts_dialer</i><h4>Contact Numbers</h4>
+						   <ul>
+							<li>Telephone number: (632)9020900</li>
+							<li>Cellphone number: (63998)9901471</li>
+							</ul>
+						</div>
+						<div class="col l6 m12 s12">
+							  <i class="medium material-icons">location_on</i><h4>Location</h4>
+							  <ul>
+								<li>1206, 12th Floor</li>
+								<li>The Trade and Financial Tower</li>
+								<li>32nd Street and 7th Avenue,</li>
+								<li>Bonifacio Global City Taguig</li>
+							  </ul>
+						</div>
+					
+					</div>
+					<div class="row">
+						<div class="col l6 m12 s12">
+						   <i class="medium material-icons">email</i><h4>Email</h4>
+						   <ul>
+							<li>avasecconstruction@gmail.com</li>
+							</ul>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
         <footer class="page-footer" id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text">Footer Content</h5>
-                        <p class="white-text">You can use rows and columns here to organize your footer content.</p>
+						 <div id="avasec-footer">
+							<img class="responsive-img" src="images/logo-white.png">
+						</div>
+                        <!--<p class="white-text">You can use rows and columns here to organize your footer content.</p> -->
+						<div id="snsIcons" class="row"><a href="https://www.facebook.com/AvasecConstruction/"><img class="responsive-img" src="images/fb-w.png"></a></div>
                     </div>
-                    <div class="col l4 offset-l2 s12">
+                    <div class="col l4 offset-05 s12">
                         <h5 class="white-text">Site Map</h5>
                         <ul>
                             <li><a class="grey-text text-lighten-3" href="#navigation-bar">Home</a></li>
                             <li><a class="grey-text text-lighten-3" href="#about-company">About</a></li>
                             <li><a class="grey-text text-lighten-3" href="#projects">Projects</a></li>
                             <li><a class="grey-text text-lighten-3" href="#careers">Careers</a></li>
+                        </ul>
+                    </div>
+					<div class="col l4 offset-05 s12">
+						<br>
+                        <h5 class="white-text">Contact Us</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#navigation-bar">(632)9020900</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#about-company">(63998)9901471</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#projects">avasecconstruction@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -112,6 +159,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Compiled and minified JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <!-- <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script> -->
         <script type="text/javascript" src="index.js"></script>
     </body>
