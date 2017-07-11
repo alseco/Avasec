@@ -5,10 +5,9 @@
 }
 
 #avasec-logo {
-	margin-top: 10px;
-	margin-left: 50px;
+	margin: 10px auto 5px auto;
 	float: left;
-	height: 45px;
+	height: 100%;
 	cursor: pointer;
 }
 
