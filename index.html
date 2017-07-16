@@ -16,38 +16,39 @@
     </head>
 
     <body>
-        <nav class="white z-depth-0" id="navigation-bar">
-            <div class="nav-wrapper">
-                <div id="avasec-logo" class="left">
-					 <a href="#home-image"><img class="responsive-img" src="images/l.png"></a>
-                    <!-- <img class="responsive-img" src="images/avasec-logo-no-text.jpg" height="45px" width="45px"><img src="images/avasec-logo-text.jpg" height="45px" width="150px"> -->
-                </div>
-                <div id="links">
-                    <ul class="right">
-                        <li><a href="#about-company">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-						<li><a href="#careers">Careers</a></li>
-						<!-- <li><a class="red-text text-lighten-1 in-line" href="#footer"><i class="tiny material-icons">phone</i> (632)9020900</a></li> -->
-						<li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                
-            </div>
-        </nav>
-        
+		 <div class="nav-wrapper">
+			<nav class="white z-depth-0" id="navigation-bar">
+			   
+					<div id="avasec-logo" class="brand-logo">
+						 <a href="#home-image"><img class="responsive-img" src="images/l.png"></a>
+						<!-- <img class="responsive-img" src="images/avasec-logo-no-text.jpg" height="45px" width="45px"><img src="images/avasec-logo-text.jpg" height="45px" width="150px"> -->
+					</div>
+					<div id="links">
+						<ul id="nav-mobile" class="right hide-on-med-and-down">
+							<li><a href="#about-company">About</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#careers">Careers</a></li>
+							<!-- <li><a class="red-text text-lighten-1 in-line" href="#footer"><i class="tiny material-icons">phone</i> (632)9020900</a></li> -->
+							<li><a href="#contact">Contact Us</a></li>
+						</ul>
+					</div>
+					
+				
+			</nav>
+		</div>
         <div class="col s12 center">
-			<img  class="responsive-img" id="home-image" src="images/home.jpg">
-        </div>
-		<div class="col s12 center logo-wrapper">
-			<img  class="responsive-img" id="logo-image" src="images/logo-g1.gif">
-			<!--<div class="row center">
+			<img  class="responsive-img" id="home-image" src="images/home-1.gif">
+			<!-- <div class="col s12 center logo-wrapper">
+			<img  class="responsive-img" src="images/logo-g1.gif">
+			<div class="row center">
                 <a class="waves-effect waves-light btn hoverable mg-rg" href="#about-company">Explore</a>
-            </div> -->
-        </div>
+            </div> 
+			</div> -->
+		</div>
         <div class="row" id="about-company">
-            <div class="col s12 push-l1" id="about-text">
+            <div class="col s12 push-1" id="about-text">
                <span> <h3>AVASEC Construction</h3>is a Design and Construction Firm that will satisfy your project requirements and needs at a good cost.
-				 It is owned and managed by<br> a Licensed Registered Architect with more than 10 years of experience in various field of Design and Construction.</span>
+				 It is owned and managed by a Licensed Registered Architect with more than 10 years of experience in various field of Design and Construction.</span>
             </div>
 			<div class="col s12 center" id="services-head">
 				<div class="center-align"><h4>SERVICES OFFERED</h4></div>
@@ -70,17 +71,76 @@
 				</div>
 			</div>
         </div>
-		<div class="row col s12 center" id="projects">
-			<div class="center-align"><h4>PROJECTS</h4></div>
+		<div class="s12 center" id="projects">
+			<!-- <div class="carousel">
+			  <div class="carousel-cell">
+				<img class="carousel-cell-image"
+				  data-flickity-lazyload="images/condo-makati.jpg" />
+			  </div>
+			  <div class="carousel-cell">
+				<img class="carousel-cell-image"
+				  data-flickity-lazyload="images/dorm-cavite.jpg" />
+			  </div>
+			</div> -->
+			<div class="carousel-contauner">
+				<div class="row">
+				<!-- <div class="col 14 s4 center-align"><a href="#!" class="btn" id="makati"><i class="medium material-icons">location_on</i><h5 class="caption" id="carousel-caption">Makati</h5></a></div>
+				<div class="col 14 s4 center-align"><i class="medium material-icons">location_on</i><h5 class="caption" id="carousel-caption">Cavite</h5></div>
+				<div class="col 14 s4 center-align"><i class="medium material-icons">location_on</i><h5 class="caption" id="carousel-caption">Sucat</h5></div>
+				</div> -->
+				<div class="center-align"><h4>PROJECTS</h4></div>
+				<div id="image-test" class="carousel" data-flickity='{ "lazyLoad": 2, "initialIndex": 2 }'>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/condo-makati.jpg"/>
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/condo-makati-1.jpg" />
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/dorm-cavite.jpg"/>
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/dorm-cavite-1.jpg" />
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/dorm-cavite-2.jpg" />
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/house-cavite.jpg"/>
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/house-cavite-1.jpg" />
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/house-cavite-2.jpg" />
+				  </div>
+				    <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/paranaque1.jpg" />
+				  </div>
+				  <div class="carousel-cell">
+					<img class="carousel-cell-image"
+					  data-flickity-lazyload="images/paranaque3.jpg" />
+				  </div>
+				</div>
+			</div>
 		</div>
-		<div class="row col s12 center" id="careers">
+		<div class=" s12 center" id="careers">
 			<div id="career-details">
 				<div class="center-align"><h4>CAREERS</h4></div>
 				<div class="center-align"><h5>This section is under construction</h5></div>
 				<center><i class="large material-icons">local_shipping</i></center>
 			</div>
 		</div>
-		<div class="row col s12 center" id="contact">
+		<div class="s12 center" id="contact">
 			<div id="contact-details">
 				<div class="center-align"><h4>CONTACT US</h4></div><br>
 				 <div class="container">
@@ -118,14 +178,18 @@
         <footer class="page-footer" id="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col l6 s12">
-						 <div id="avasec-footer">
-							<img class="responsive-img" src="images/logo-white.png">
+                    <div class="col l6 s12  push-l1"  id="avasec-footer">
+						<div>
+							<img class="responsive-img center" src="images/logo-white.png">
 						</div>
-                        <!--<p class="white-text">You can use rows and columns here to organize your footer content.</p> -->
-						<div id="snsIcons" class="row"><a href="https://www.facebook.com/AvasecConstruction/"><img class="responsive-img" src="images/fb-w.png"></a></div>
-                    </div>
-                    <div class="col l4 offset-05 s12">
+                        <div class="row 16 s3">
+							<div id="snsIcons"><a href="https://www.facebook.com/AvasecConstruction/"><img class="responsive-img" src="images/fb-w.png"></a>
+							<a href=""><img class="responsive-img" src="images/ig-w.gif"></a>
+							<a href=""><img class="responsive-img" src="images/twitter-w.png"></a>
+							<a href=""><img class="responsive-img" src="images/linkedin-w.png"></a></div>
+						</div>
+					</div>
+                    <div class="col l4 offset-05 s12  push-l1">
                         <h5 class="white-text">Site Map</h5>
                         <ul>
                             <li><a class="grey-text text-lighten-3" href="#navigation-bar">Home</a></li>
@@ -134,13 +198,13 @@
                             <li><a class="grey-text text-lighten-3" href="#careers">Careers</a></li>
                         </ul>
                     </div>
-					<div class="col l4 offset-05 s12">
+					<div class="col l4 offset-05 s12  push-l1">
 						<br>
-                        <h5 class="white-text">Contact Us</h5>
+                        <h5 class="white-text">Contact Information</h5>
                         <ul>
-                            <li><a class="grey-text text-lighten-3" href="#navigation-bar">(632)9020900</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#about-company">(63998)9901471</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#projects">avasecconstruction@gmail.com</a></li>
+                            <li><a class="grey-text text-lighten-3">(632)9020900</a></li>
+                            <li><a class="grey-text text-lighten-3">(63998)9901471</a></li>
+                            <li><a class="grey-text text-lighten-3">avasecconstruction@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
