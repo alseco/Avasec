@@ -1,28 +1,29 @@
 * {
-	margin: 0px;
-	font-family: 'Open sans', 'sans-serif';
-	font-size: 1em;
-}
-
-#avasec-logo img{
-	width: 100 % ;
-	height: auto;
-	cursor: pointer;
-}
-
-#logo-image {
-	width: 60%;
-}
-
-#home-image {
-	padding-top: 20px;
-	width: 100%;
+    margin: 0px;
+    font-family: 'Open sans', 'sans-serif';
+    font-size: 1em;
 }
 
 a {
-	margin-right: 30px;
-	text-align: center;
-	color: #7d7d7d !important;
+    outline: 0;
+    margin-right: 30px;
+    text-align: center;
+    color: #7d7d7d !important;
+}
+
+#avasec-logo img{
+    width: 100 % ;
+    height: auto;
+    cursor: pointer;
+}
+
+#logo-image {
+    width: 60%;
+}
+
+#home-image {
+    padding-top: 10px;
+    width: 100%;
 }
 
 nav ul li {
@@ -35,11 +36,11 @@ nav ul li a:hover {
 }
 
 nav {
-	border-bottom: 0px;
+    border-bottom: 0px;
 }
 
 .active {
-	color: black !important;
+    color: black !important;
 }
 
 .logo-wrapper {
@@ -82,19 +83,19 @@ nav {
 }
 
 .mg-rg:hover{
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 #slider-image {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 
 footer {
-	background-color: #ca2121 !important;
+    background-color: #ca2121 !important;
 }
 
 #about-company, #about-founder {
-    margin: 40px auto 40px auto;
+    margin: 0px auto 0px auto;
 }
 
 #about-picture, #about-founder-picture {
@@ -102,8 +103,8 @@ footer {
 }
 
 #about-text {
-    margin: 30px auto 30px auto;
-	padding-left: 90px auto;
+    margin: 0px auto 30px auto;
+    padding-left: 90px auto;
     font-size: 20px;
 }
 
@@ -123,7 +124,7 @@ footer {
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 40px;
-	background-color: #ffff99;
+    background-color: #ffff99;
     color: black;
 }
 
@@ -131,7 +132,7 @@ footer {
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 40px;
-	background-color: #213434;
+    background-color: #213434;
     color: white;
 }
 
@@ -141,22 +142,26 @@ footer {
 }
 
 #avasec-footer img{
-	padding-top: 20px;
-	width: 40%;
-	height: 40%;
+    padding-top: 20px;
+    width: 40%;
+    height: 40%;
+}
+
+#contacts-container {
+    width: 80%;
 }
 
 #snsIcons img{
-	padding-top: 20px;
-	width:7%;
-	height:7%;
+    padding-top: 20px;
+    width:7%;
+    height:7%;
 }
 
 #carousel-caption{
-	color: black;
+    color: black;
 }
 #carousel-caption i{
-	color: #29caca;
+    color: #29caca;
 }
 
 * { box-sizing: border-box; }
